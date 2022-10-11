@@ -1,12 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio</title>
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Portafolio de IgnacioVQ</title>
+    <!-- Favicon-->
+    <link rel="icon" type="favicon" href="assets/img/favicon.ico" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style_portafolio.css">
+    <script src="https://kit.fontawesome.com/abef669921.js" crossorigin="anonymous"></script>
+
 </head>
+
 <body>
-    
+    <header>
+        <div>
+            <nav class=" nav-style navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid mx-4">
+                    <a class="navbar-brand" href="#">
+                        <div class="waviy">
+                            <span> <img class="icon-style" src="assets/img/logo_icon_inv.png"
+                                    alt="logo_icon_inv.png"></span>
+                            <!-- <span style="--i:2">M</span>
+                            <span style="--i:3">i&nbsp;</span> -->
+<!--                             <span style="--i:4">P</span>
+                            <span style="--i:5">o</span>
+                            <span style="--i:6">r</span>
+                            <span style="--i:7">t</span>
+                            <span style="--i:8">a</span>
+                            <span style="--i:9">f</span>
+                            <span style="--i:10">o</span>
+                            <span style="--i:11">l</span>
+                            <span style="--i:12">i</span>
+                            <span style="--i:13">o</span> -->
+                            <span style="--i:4">i</span>
+                            <span style="--i:5">g</span>
+                            <span style="--i:6">n</span>
+                            <span style="--i:7">a</span>
+                            <span style="--i:8">c</span>
+                            <span style="--i:9">i</span>
+                            <span style="--i:10">o</span>
+                            <span style="--i:11">V</span>
+                            <span style="--i:12">Q</span>
+                        </div>
+                    </a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Sobre-mi">Sobre mi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Mis-desafios">Mis desafíos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Contácto">Contácto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div id="Hero-Section" class="text-light text-end py-5">
+        <div class="container">
+            <div class="ms-auto col-12 col-md-7 ">
+                <h1 class="display-1 fw-bold my-5">
+                    Bienvenido a mi <br> Portafolio
+                </h1>
+                <p class="my-5">
+                    Aquí puedes encontrar mis ultimos trabajos en el mundo de la programación.
+                </p>
+                <button type="button" class="btn btn-primary btn-lg" id="liveToastBtn">¿Quieres saber más?</button>
+
+                <div class="toast-container toast-pos p-3">
+                    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true"
+                        data-bs-autohide="false">
+                        <div class="toast-header">
+                            <img src="assets/img/logo_icon.png" class="rounded me-2 toast-icon" alt="logo_icon.png">
+                            <strong class="me-auto">¡Hey!</strong>
+                            <small>Hace 1 segundo</small>
+                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                        </div>
+                        <div class="toast-body toast-p">
+                            Yo programé esto con Bootstrap.
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    const toastTrigger = document.getElementById('liveToastBtn')
+                    const toastLiveExample = document.getElementById('liveToast')
+                    if (toastTrigger) {
+                        toastTrigger.addEventListener('click', () => {
+                            const toast = new bootstrap.Toast(toastLiveExample)
+
+                            toast.show()
+                        })
+                    }
+                </script>
+            </div>
+        </div>
+    </div>
+
+    <section id="Sobre-mi" class="mt-2 p-5 text-center">
+        <h2 class="display-3 fw-bold my-4">Sobre mí</h2>
+        <p class="my-4">
+            Cosas que me gustan:
+        </p>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <i class="fas fa-solid fa-crow fa-3x my-3 fa-beat fa-style"></i>
+                <h3 class="my-3 fw-bold">Aves</h3>
+                <p class="my-3">
+                    Tomar fotos de aves, ver la naturaleza y las nubes.
+                </p>
+            </div>
+            <div class="col-12 col-md-4">
+                <i class="fa-solid fa-gamepad fa-3x my-3 fa-beat fa-style"></i>
+                <h3 class="my-3 fw-bold">Videojuegos</h3>
+                <p class="my-3">
+                    Jugar todo tipo de juegos de rol, crear personajes RPG, juegos de aventura y puzzle.
+                </p>
+            </div>
+            <div class="col-12 col-md-4">
+                <i class="fa-solid fa-code fa-3x my-3 fa-beat fa-style"></i>
+                <h3 class="my-3 fw-bold">Front End</h3>
+                <p class="my-3">
+                    Estudiante de Front-End en Desafío Latam G5 2022.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="Mis-desafios" class="mt-5 p-5 section-style text-center">
+        <h2 class="display-4 fw-bold text-center text-light mb-3">Mis desafíos</h2>
+        <p class="my-4 p-style">
+            Estos son mis últimos proyectos de programación:
+        </p>
+        <div class="row">
+            <div class="col-12 col-sm-4 col-xs-12 py-2">
+                <div class="card">
+                    <div class="image-top" style="background-image: url(assets/img/card-1.jpg)"></div>
+                    <div class="card-body">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">MI PRIMER CV</h5>
+                            <p class="card-text">
+                                Proyecto de introducción a HTML creando un curriculum con información básica.
+                            </p>
+                            <a href="assets/Desafio_01/index.html"  target="_blank" rel="noopener noreferrer"
+                                class="btn btn-outline-primary button-style btn-lg text-center">
+                                Ver más
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 col-xs-12 py-2">
+                <div class="card">
+                    <div class="image-top" style="background-image: url(assets/img/card-2.jpg)"></div>
+                    <div class="card-body">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Tienda DecoBallenas</h5>
+                            <p class="card-text">
+                                Propuesta de diseño de página con CSS para tienda de peluches "DecoBallenas".
+                            </p>
+                            <a href="assets/Desafio_02/index.html" target="_blank" rel="noopener noreferrer"
+                                class="btn btn-outline-primary button-style btn-lg text-center">
+                                Ver más
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="Contácto" class="container my-3">
+
+        <h2 class="display-4 fw-bold text-center my-4">Contácto</h2>
+        <p class="my-3 text-center">
+            Escribeme y desarrollemos un proyecto juntos:
+        </p>
+        <form>
+            <div class="form-group mb-4">
+                <label class="mb-2">Nombre</label>
+                <input class="form-control" placeholder="Nombre">
+            </div>
+
+            <div class="form-group mb-4">
+                <label class="mb-2">Correo electrónico</label>
+                <input class="form-control" placeholder="Correo electrónico" />
+            </div>
+
+            <div class="form-group">
+                <label class="mb-2">Mensaje</label>
+                <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
+            </div>
+
+            <div class="my-3 text-center">
+                <button class="btn btn-outline-primary button-style btn-lg" id="liveToastBtn2">Enviar</button>
+            </div>
+        </form>
+    </section>
+
 </body>
+
+<footer class="text-center text-light p-3 my-3">
+    <img class="icon-style" src="assets/img/logo_icon_inv.png" alt="logo_icon_inv.png"> <span class="p-style mb-2">
+        Creado por: ignacioVQ</span>
+    </div>
+</footer>
+
 </html>

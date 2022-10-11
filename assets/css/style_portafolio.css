@@ -1,0 +1,135 @@
+/*fonts*/
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url(../fonts/Roboto-Medium.ttf)format('truetype');
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Roboto-Light";
+  src: url(../fonts/Roboto-Light.ttf)format('truetype');
+  font-style: normal;
+  font-weight: 300;
+}
+
+.nav-style {
+  background-color: #0e6dcb;
+}
+
+.navbar-flex {
+  flex-grow: 0;
+}
+
+.navfont {
+  font-family: "Roboto-Medium";
+  text-decoration: none;
+}
+
+.navtext-disabled {
+  color: #ffffff80;
+  font-family: "Roboto-Medium";
+  text-decoration: none;
+}
+
+/* Hero Section */
+
+#Hero-Section {
+  background-image: url("../img/bg-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+body header h1 {
+  font-size: 3em;
+}
+
+body header h3 {
+  font-size: 2em;
+}
+
+.icon-style {
+  width: 2em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.section-style {
+  background-color: #0e6dcb;
+}
+
+.fa-style {
+  color: #0e6dcb;
+}
+
+.p-style {
+  color: white;
+}
+
+#Mis-desafios .image-top {
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.button-style {
+  color: #0e6dcb;
+}
+
+.waviy {
+  position: relative;
+}
+
+.waviy span {
+  position: relative;
+  display: inline-block;
+  animation: waviy 4s infinite;
+  animation-delay: calc(0.1s * var(--i));
+
+}
+
+@keyframes waviy {
+
+  0%,
+  40%,
+  100% {
+    transform: translateY(0)
+  }
+
+  20% {
+    transform: translateY(-20px)
+  }
+}
+
+footer {
+  background-color: #0e6dcb;
+}
+
+footer img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 4em;
+}
+
+footer p {
+  text-align: center;
+}
+
+.toast-pos{
+  top: 130px;
+
+  left: 330px;
+}
+
+.toast-icon{
+  width: 2em;
+}
+
+.toast-p{
+  color: black;
+  font-size: 1.5em;
+}

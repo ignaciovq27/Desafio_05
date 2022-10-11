@@ -1,0 +1,132 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+    height: 4em;
+    padding: 5em;
+    font-size: 2em;
+    /* background-image: url(img_ballena_fondo.png); */
+    background-image: url(../css/img_ballena_fondo.PNG);
+    background-size: cover;
+    background-position: center;
+    margin-top: 0.5em;
+    border: 0.1em;
+    border-style: solid;
+    border-color: #2986c0;
+    border-radius: 1em;
+}
+
+.line {
+    margin: 0.7% 0% 0.7% 0%;
+    height: 0.3em;
+    line-height: .3em;
+    background-color: #2986c0;
+}
+
+.header h1 {
+    margin: 0px;
+    font-weight: 400;
+}
+
+p {
+    margin-top: 0.5em;
+    height: auto;
+    font-style: italic;
+}
+
+.p2 {
+    padding-left: 1.1em;
+    font-size: 1.3em;
+}
+
+.ptitle {
+    background-color: #2986c0;
+    color: white;
+    text-align: left;
+    white-space: normal;
+    border-radius: 55px;
+    padding: 10px 17px 10px 17px;
+    font-size: 1.8em;
+    font-style: normal;
+    letter-spacing: 0.05em;
+}
+
+.products {
+    margin: auto;
+    width: 50%;
+    padding: 1em;
+}
+
+.products img {
+    width: 100%;
+    border: solid 2px #ddd;
+    border-radius: 1em;
+}
+
+h1 {
+    margin: 2em;
+    margin-bottom: 0.8em;
+}
+
+footer p {
+    height: 3em;
+    line-height: 3em;
+    background-color: #2986c0;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: large;
+    letter-spacing: 2px;
+    border-radius: 55px;
+    padding: 0px 17px 0px 17px;
+}
+
+footer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 3%;
+}
+
+/*fonts*/
+@font-face {
+    src: url('LeckerliOne-Regular.ttf') format('truetype');
+    font-family: "LeckerliOne";
+}
+
+.font {
+    font-family: "LeckerliOne";
+}
+
+.textstyle {
+    display: inline-block;
+    border-radius: 55px;
+    padding: 0px 17px 0px 17px;
+    font-size: 70px;
+    background-color: #2986c0;
+    color: white;
+}
+
+.column_A {
+    width: 400px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column_B {
+    width: 70%;
+    padding: 2em;
+    height: 200px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
