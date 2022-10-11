@@ -1,0 +1,91 @@
+/*fonts*/
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url(../fonts/Roboto-Medium.ttf)format('truetype');
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Roboto-Light";
+    src: url(../fonts/Roboto-Light.ttf)format('truetype');
+    font-style: normal;
+    font-weight: 300;
+}
+
+.header-style {
+    background-color: #0e6dcb;
+}
+
+.navbar-flex {
+    flex-grow: 0;
+}
+
+.navfont {
+    font-family: "Roboto-Medium";
+    text-decoration: none;
+}
+
+.navtext-disabled {
+    color: #ffffff80;
+    font-family: "Roboto-Medium";
+    text-decoration: none;
+}
+
+.card-style {
+    font-family: "Roboto-Light";
+    font-weight: light;
+}
+
+
+.card h4 {
+    color: #707070;
+}
+
+.p-style {
+    color: #707070;
+    max-width: 100%;
+    height: auto;
+}
+
+.p-important {
+    font-family: "Roboto-Medium";
+    color: #0e6dcb;
+    font-size: 30px;
+    max-width: 100%;
+    height: auto;
+}
+
+.p-info {
+    color: #707070;
+    font-size: 16px;
+}
+
+.fa-color {
+    color: #707070;
+}
+
+.line {
+    margin: 0.7% 0% 0.7% 0%;
+    height: 0.1em;
+    line-height: .1em;
+    background-color: #DDDDDD;
+}
+
+.form-style{
+    background-color: #0e6dcb;
+    font-family: "Roboto-Medium";
+    text-align: center;
+}
+
+.div button {
+    width: 60px;
+}
+
+footer img{
+    width: 200px;
+}
+
+footer p{
+    text-align: center;
+}
