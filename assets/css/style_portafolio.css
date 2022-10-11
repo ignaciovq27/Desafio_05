@@ -35,10 +35,10 @@
 /* Hero Section */
 
 #Hero-Section {
-  
+
   background-image: url("../img/bg_header.png");
-  background-image: url("https://ignaciovq27.github.io/assets/img/bg_header.png");
-  background-image: url("https://ignaciovq27.github.io/bg_header.png");
+  /* background-image: url("https://ignaciovq27.github.io/assets/img/bg_header.png");
+  background-image: url("https://ignaciovq27.github.io/bg_header.png"); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
