@@ -33,7 +33,6 @@
 }
 
 /* Hero Section */
-
 #Hero-Section {
 
   background-image: url("../img/bg_header.png");
@@ -72,7 +71,7 @@ p {
   color: white;
 }
 
-#Mis-desafios .image-top {
+#Mis-desafíos .image-top {
   height: 300px;
   background-repeat: no-repeat;
   background-size: cover;
